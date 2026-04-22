@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 
-<!-- 🔒 拡大禁止 -->
+<!-- 機能していないかもしれない拡大禁止 -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <title>雀魂ガチャ確率計算機</title>
@@ -25,7 +25,7 @@ body {
   min-height: 100vh;
   margin: 0;
 
-  /* ダブルタップ防止 */
+  /* ダブルタップ防止だが機能してない*/
   touch-action: manipulation;
 }
 
@@ -146,7 +146,7 @@ button:active {
 </div>
 
 <script>
-// ダブルタップズーム防止（iOS対策）
+// ダブルタップズーム防止的なもの
 let lastTouchEnd = 0;
 document.addEventListener('touchend', function (event) {
   const now = Date.now();
